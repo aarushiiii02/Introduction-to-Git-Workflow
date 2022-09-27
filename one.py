@@ -1,4 +1,4 @@
-a = ["Jannat","Miglani"]
+a = ["aarushi","sharma"]
 
 b = a[0]
 
