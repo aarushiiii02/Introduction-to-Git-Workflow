@@ -52,7 +52,7 @@ jobs:
       - name: Run a one-line script
 
         run: 
-        python one.py
+         python one.py
         
   job2:
 
