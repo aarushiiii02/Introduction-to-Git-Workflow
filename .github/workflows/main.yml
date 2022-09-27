@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Aarushi-workflow
+name: Aarushi-workflow 
 
 # Controls when the workflow will run
 
@@ -19,7 +19,6 @@ on:
   # Allows you to run this workflow manually from the Actions tab
 
  # workflow_dispatch:
-
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 
@@ -52,40 +51,26 @@ jobs:
 
       - name: Run a one-line script
 
-        run:
-
-         python one.py
-
+        run: 
+        python one.py
+        
   job2:
-
-
 
     needs: job1
 
-
-
     if: ${{ always() }}
 
-
-
-    runs-on: ubuntu-latest
-
-
+    runs-on: ubantu-latest
 
     steps:
 
-
-
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-
-
-
+      
+      
       - uses: actions/checkout@v3
 
-
-
       - uses: actions/setup-python@v4
-
+/
 
         with:
 
